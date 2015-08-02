@@ -1,0 +1,15 @@
+body {
+    font-family: 'Titillium Web', Arial !important;
+}
+.navbar {
+    margin-bottom: 0;
+}
+.navbar-default {
+    border-color: transparent;
+}
+.container {
+    width: 100%;
+}
+#projects .col-md-4 img {
+    width: 100%;
+}
