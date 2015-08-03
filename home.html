@@ -2,7 +2,7 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title>Matthew Ahlberg's Portfolio</title>
+    <title>MATTHEW AHLBERG | Front End Developer</title>
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -14,9 +14,13 @@
 
     <link rel="stylesheet" href="css/normalize.css"/>
 
+    <link rel="stylesheet" href="css/responsive.css"/>
+
     <link rel="stylesheet" href="css/style.css"/>
 
-    <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,300,200,600,700,900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,300,200,600,700,900' rel='stylesheet' type='text/css'>
 
 </head>
 <body>
@@ -27,8 +31,8 @@
                 <a data-scroll href="#header"><h1>Matthew Ahlberg</h1></a>
                 <nav>
                     <a data-scroll href="#about">About</a>
-                    <a data-scroll href="#projects">Projects</a>
                     <a data-scroll href="#services">Services</a>
+                    <a data-scroll href="#projects">Projects</a>
                     <a data-scroll href="#contact">Contact</a>
                 </nav>
             </div>
@@ -36,60 +40,61 @@
     </section>
 
 
-    <section id="intro" style="height: 800px;">
+    <section id="intro">
         <div class="container">
             <div class="row">
-                <div class="col-md-6" style="background-image: url('https://farm1.staticflickr.com/312/20210027185_2ecd6373e3_b.jpg'); height: 800px; background-repeat: no-repeat; background-size: cover; background-position: top; border-right: 2px solid white">
-
-                </div>
-                <div class="col-md-6" style="height: 800px; background-color: rgba(32, 73, 125, 0.8); border-left: 2px solid white;">
-                    <div style="position: relative; top: 50%; transform: translateY(-50%);">
-                        <h1 style="font-size: 35px; font-weight: 400; text-transform: uppercase; color: white;">Matthew Ahlberg</h1>
-                        <h3 style="color: white; font-weight: 100; ">Front-End Web Developer</h3>
-                        <div style="width: 60px; height: 4px; background-color: white; margin: 30px 0;"></div>
-                        <a data-scroll href="#about"><button style="border: 2px solid white; background-color: transparent; color: white; text-transform: uppercase; padding: 10px 25px; font-size: 15px; font-weight: 700;">Learn More</button></a>
-                        <a data-scroll href="#projects"><button style="border: 2px solid white; background-color: transparent; color: white; text-transform: uppercase; padding: 10px 25px; font-size: 15px; font-weight: 700; margin-left: 20px; ">Projects</button></a>
-                        <a data-scroll href="#about"><div style="background-color: white; width: 70px; height: 70px; text-align: center; border-radius: 100px; padding-top: 21px; border: 4px solid #BFBFBF; position: absolute; left: -50px; top: 300px;"><img style="width: 35px;" src="https://farm4.staticflickr.com/3809/19593634964_b9873b24e8.jpg" /></div></a>
+                <div class="col-md-6 col-sm-6 col-xs-12" style="background-image: url('https://farm1.staticflickr.com/312/20210027185_2ecd6373e3_b.jpg');"></div>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div>
+                        <h1>Matthew Ahlberg</h1>
+                        <h3>Front-End Web Developer</h3>
+                        <div></div>
+                        <a data-scroll href="#about"><button class="info-button">Learn More</button></a>
+                        <a data-scroll href="#projects"><button class="info-button" style="margin-left: 10px;">Projects</button></a>
+                        <a data-scroll href="#about"><div class="down-arrow"><img style="width: 35px;" src="https://farm4.staticflickr.com/3809/19593634964_b9873b24e8.jpg" /></div></a>
                     </div>
-
                 </div>
+
+                <!--<div class="col-md-6">-->
+                    <!--Hello, my name is Matthew Ahlberg. I've been working in the web development space for a year now. My primary experience is in front-end web development with past work in Ruby on Rails, Wordpress, and Meteor.js. I'm well versed in cross browser compatibility as well as mobile-friendly websites. </h3>-->
+                <!--</div>-->
+                <!--<div class="col-md-6">-->
+                    <!--Hello, my name is Matthew Ahlberg. I've been working in the web development space for a year now. My primary experience is in front-end web development with past work in Ruby on Rails, Wordpress, and Meteor.js. I'm well versed in cross browser compatibility as well as mobile-friendly websites. </h3>-->
+                <!--</div>-->
             </div>
         </div>
     </section>
 
     <section id="about">
         <div class="container">
-            <div class="row" style="margin: 180px 0 120px;">
-                <!--<div class="col-md-4" style="text-align: center">-->
-                    <!--<img src="https://farm1.staticflickr.com/413/20180421826_7c6a72fea7_b.jpg" style="border-radius: 300px; width: 200px; height: 200px;"/>-->
-                <!--</div>-->
-                <div class="col-md-12" style="margin: 220px 0;">
-                    <h3 style="color: rgba(58, 57, 57, 0.56); padding: 0 100px; text-align: center; font-family: 'Titillium Web', Arial;">Hello, my name is Matthew Ahlberg. I've been working in the web development space for a year now. My primary experience is in front-end web development with past work in Ruby on Rails, Wordpress, and Meteor.js. I'm well versed in cross browser compatibility as well as mobile-friendly websites. </h3>
-                    <div style="width: 190px; background-color: rgba(128, 128, 128, 0.62); height: 1px; margin: 40px auto;"></div>
+            <div class="row">
+                <div class="col-md-12">
+                    <h3>Hello, my name is Matthew Ahlberg and I've been working in the web development space for just over a year now. My primary focus is in front-end web development and I'm well versed in cross browser compatibility and buildling mobile-friendly websites. I also have previous experience working with Ruby on Rails as well as Wordpress. </h3>
+                    <div></div>
                 </div>
             </div>
         </div>
     </section>
 
     <section id="services">
-        <div class="container" style="margin: 100px 0;">
-            <div class="row" style="text-align: center;">
-                <h1 style="text-transform: uppercase; letter-spacing: 1px; font-family: 'Titillium Web', Arial;">Services</h1>
+        <div class="container">
+            <div class="row">
+                <h1>Services</h1>
             </div>
-            <div class="row" style="margin: 60px 0 100px;">
-                <div class="col-md-4" style="text-align: center;">
-                    <img style="width: 150px; height: 150px;" src="https://farm1.staticflickr.com/475/20210986425_c6b41b0ab6_z.jpg" />
-                    <h4 style="margin: 20px 0;">Frontend Development</h4>
+            <div class="row">
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                    <img src="https://farm1.staticflickr.com/475/20210986425_c6b41b0ab6_z.jpg" />
+                    <h4>Frontend Development</h4>
                     <p>I work with HTML5, CSS3 (SCSS) and jQuery on a consistent basis to build fully functional and interactive interfaces.</p>
                 </div>
-                <div class="col-md-4" style="text-align: center;">
-                    <img style="width: 150px; height: 150px;" src="https://farm1.staticflickr.com/407/20024507219_15b681a6a8.jpg" />
-                    <h4 style="margin: 20px 0;">Wordpress Development</h4>
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                    <img src="https://farm1.staticflickr.com/407/20024507219_15b681a6a8.jpg" />
+                    <h4>Wordpress Development</h4>
                     <p>I have experience in building the front end of multiple Wordpress websites for an array of different clients. </p>
                 </div>
-                <div class="col-md-4" style="text-align: center;">
-                    <img style="width: 150px; height: 150px; opacity: 0.8;" src="https://farm1.staticflickr.com/485/20216912921_4616f82ee7.jpg" />
-                    <h4 style="margin: 20px 0;">Responsive Mobile Development</h4>
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                    <img style="opacity: 0.8;" src="https://farm1.staticflickr.com/485/20216912921_4616f82ee7.jpg" />
+                    <h4>Responsive Mobile Development</h4>
                     <p>I make sure that each website I build not only has a beautiful web presence but also looks great on other devices such as tablets and mobile phones.</p>
                 </div>
             </div>
@@ -98,55 +103,63 @@
 
     <section id="projects">
         <div class="container">
-            <div class="row" style="text-align: center;">
-                <h1 style="text-transform: uppercase; letter-spacing: 1px;">Projects</h1>
+            <div class="row">
+                <h1>Projects</h1>
             </div>
-            <div class="row" style="margin: 60px 0 100px;">
-                <div class="col-md-4" style="text-align: center; position: relative; height: 100%;">
-                    <a href="http://rentgenba.com/"><img style="width: 100%; top: 0; left: 0;" src="https://farm4.staticflickr.com/3731/20032297569_bf7f64d13d.jpg" />
-                        <div style="position: absolute; top: 110px; left: 0; text-align: center; width: 100%; color: #334964; opacity: 0;">
-                            <h1>Fullbottle</h1>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <a href="http://fullbottle.co/" target="_blank"><img src="https://farm4.staticflickr.com/3731/20032297569_bf7f64d13d.jpg" />
+                        <div>
+                            <h1>Marketing Website</h1>
                             <h5>Wordpress, Front-End Web Development</h5>
                         </div>
                     </a>
                 </div>
-                <div class="col-md-4" style="text-align: center; position: relative; height: 100%;">
-                    <a href="http://ccm.creativecircle.com/hackerx"><img style="width: 100%; top: 0; left: 0;" src="https://farm4.staticflickr.com/3711/20031125080_3120c05f7d.jpg" />
-                        <div style="position: absolute; top: 110px; left: 0; text-align: center; width: 100%; color: #334964; opacity: 0;">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <a href="http://ccm.creativecircle.com/hackerx" target="_blank"><img src="https://farm4.staticflickr.com/3711/20031125080_3120c05f7d.jpg" />
+                        <div>
                             <h1>Landing Page</h1>
                             <h5>Front-End Web Development</h5>
                         </div>
                     </a>
                 </div>
-                <div class="col-md-4" style="text-align: center; position: relative; height: 100%;">
-                    <a href="http://specks.mobilefirststudios.com/"><img style="width: 100%; top: 0; left: 0;" src="https://farm1.staticflickr.com/432/20031025010_5c6af4d341.jpg" />
-                        <div style="position: absolute; top: 110px; left: 0; text-align: center; width: 100%; color: #334964; opacity: 0;">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <a href="http://specks.mobilefirststudios.com/" target="_blank"><img src="https://farm1.staticflickr.com/432/20031025010_5c6af4d341.jpg" />
+                        <div>
                             <h1>Portfolio Website</h1>
                             <h5>Wordpress, Front-End Web Development</h5>
                         </div>
                     </a>
                 </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 mobile-project">
+                    <a href="http://rentgenba.com/" target="_blank"><img src="https://farm1.staticflickr.com/523/20212804301_d9c74cb2b7_b.jpg" />
+                        <div>
+                            <h1>Landing Page</h1>
+                            <h5>Front-End Web Development</h5>
+                        </div>
+                    </a>
+                </div>
             </div>
-            <div class="row" style="margin: 60px 0 100px;">
-                <div class="col-md-4" style="text-align: center; position: relative; height: 100%;">
-                    <a href="http://rentgenba.com/"><img style="width: 100%; top: 0; left: 0;" src="https://farm1.staticflickr.com/523/20212804301_d9c74cb2b7_b.jpg" />
-                        <div style="position: absolute; top: 110px; left: 0; text-align: center; width: 100%; color: #334964; opacity: 0;">
-                            <h1>Rent Genba</h1>
+            <div class="row mobile-hide-project" style="margin: 60px 0 100px;">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12" >
+                    <a href="http://rentgenba.com/" target="_blank"><img src="https://farm1.staticflickr.com/523/20212804301_d9c74cb2b7_b.jpg" />
+                        <div>
+                            <h1>Landing Page</h1>
                             <h5>Front-End Web Development</h5>
                         </div>
                     </a>
                 </div>
-                <div class="col-md-4" style="text-align: center; position: relative; height: 100%;">
-                    <a href="http://specks.mobilefirststudios.com/"><img style="width: 100%; top: 0; left: 0;" src="https://farm1.staticflickr.com/257/20199138282_3249cb89dc.jpg" />
-                        <div style="position: absolute; top: 110px; left: 0; text-align: center; width: 100%; color: #334964; opacity: 0;">
-                            <h1>Specks App</h1>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <a href="http://specks.mobilefirststudios.com/" target="_blank"><img src="https://farm1.staticflickr.com/257/20199138282_3249cb89dc.jpg" />
+                        <div>
+                            <h1>Landing Page</h1>
                             <h5>Front-End Web Development</h5>
                         </div>
                     </a>
                 </div>
-                <div class="col-md-4" style="text-align: center; position: relative; height: 100%;">
-                    <a href="http://ccm.creativecircle.com/hackerx"><img style="width: 100%; top: 0; left: 0;" src="https://farm1.staticflickr.com/485/20180862066_8dfbde11a0_b.jpg" />
-                        <div style="position: absolute; top: 110px; left: 0; text-align: center; width: 100%; color: #334964; opacity: 0;">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <a href="http://ccm.creativecircle.com/hackerx" target="_blank"><img src="https://farm1.staticflickr.com/485/20180862066_8dfbde11a0_b.jpg" />
+                        <div>
                             <h1>Landing Page</h1>
                             <h5>Front-End Web Development</h5>
                         </div>
@@ -156,23 +169,21 @@
         </div>
     </section>
 
-    <section id="contact" style="background-color: #4C6D97;">
-        <div class="container" style="color: white;">
-            <div class="row" style="margin: 50px 0 20px;">
-                <h1>Contact Me</h1>
-            </div>
-            <div class="row" style="margin: 50px 0 10px;">
-                <div class="col-md-6">
-                    <div style="width: 70px; height: 4px; background-color: white;"></div>
-                    <div style="margin-top: 20px;">
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>Contact Me</h1>
+                    <div class="line-break"></div>
+                    <div>
                         <h5>phone: (630) 205-5513</h5>
                         <h5>email: matthewjahlberg@gmail.com</h5>
                         <h5>location: Santa Monica, CA</h5>
                     </div>
                     <div>
-                        <a href="https://www.linkedin.com/in/matthewahlberg"><img style="width: 50px;" src="http://static1.squarespace.com/static/558b2ec9e4b006eedbcd6522/5592cbd8e4b0ef31a614827b/5592cc53e4b0117ad302495a/1435684041208/linkedin.png" alt=""/></a>
-                        <a href="https://twitter.com/matthewahlberg"><img style="width: 50px;" src="http://static1.squarespace.com/static/558b2ec9e4b006eedbcd6522/5592cbd8e4b0ef31a614827b/5592cc53e4b0117ad302495a/1435684041208/linkedin.png" alt=""/></a>
-                        <img style="width: 50px;" src="http://static1.squarespace.com/static/558b2ec9e4b006eedbcd6522/5592cbd8e4b0ef31a614827b/5592cc53e4b0117ad302495a/1435684041208/linkedin.png" alt=""/>
+                        <a href="https://www.linkedin.com/in/matthewahlberg" style="margin: 30px 10px 30px 0;" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+                        <a href="https://twitter.com/matthewahlberg" target="_blank"><i class="fa fa-twitter-square"></i></a>
+                        <a href="https://github.com/mjahlberg" target="_blank"><i class="fa fa-github-square"></i></a>
                     </div>
                 </div>
             </div>
@@ -181,7 +192,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
-    <script src="js/smooth-scroll.min.js"></script>
+    <script src="js/smooth-scroll.js"></script>
 
     <script>
         smoothScroll.init();

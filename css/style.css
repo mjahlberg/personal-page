@@ -1,6 +1,120 @@
 body {
     font-family: 'Titillium Web', Arial !important;
 }
+a {
+    outline: 0 !important;
+    border-bottom: none !important;
+}
+a:focus {
+    text-decoration:none !important;
+}
+#header a:hover {
+    text-decoration: none;
+    opacity: .5;
+    transition: .5s;
+}
+#intro .col-md-6:nth-child(1) {
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    border-right: 2px solid white;
+}
+#intro .col-md-6:nth-child(2) {
+    padding: 300px 15px;
+    background-color: rgba(32, 73, 125, 0.8);
+    border-left: 2px solid white;
+}
+#intro .col-md-6:nth-child(2)>div {
+    position: relative;
+    min-height: 200px;
+}
+#intro .col-md-6:nth-child(2) h1 {
+    font-size: 35px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 0;
+}
+#intro .col-md-6:nth-child(2) h3 {
+    color: white;
+    font-weight: 100;
+}
+#intro .col-md-6 div div {
+    width: 60px;
+    height: 1px;
+    background-color: white;
+    margin: 20px 0 45px;
+}
+#intro .col-md-6 .info-button {
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 25px;
+    font-size: 15px;
+    font-weight: 700;
+}
+#intro .col-md-6 .down-arrow {
+    background-color: white;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    border-radius: 100px;
+    padding-top: 21px;
+    border: 4px solid #BFBFBF;
+    position: absolute;
+    left: -50px;
+    top: 300px;
+}
+#about .row {
+    margin: 180px 0 120px;
+}
+#about .row .col-md-12 {
+    margin: 100px 0;
+}
+#about .row .col-md-12 h3 {
+    color: rgba(58, 57, 57, 0.56);
+    padding: 0 100px;
+    text-align: center;
+}
+#about .row .col-md-12 div {
+    width: 190px;
+    background-color: rgba(128, 128, 128, 0.62);
+    height: 1px;
+    margin: 40px auto;
+}
+#services .container,
+#projects .container {
+    margin: 0 0 100px;
+}
+#services .container .row:nth-child(1) {
+    text-align: center;
+}
+#services .container .row:nth-child(1) h1 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 50px;
+}
+#services .container .row:nth-child(2) {
+    margin: 60px 0 100px;
+}
+#services .container .row:nth-child(2) .col-md-4 {
+    text-align: center;
+    margin: 40px 0;
+}
+#services .container .row:nth-child(2) .col-md-4 img {
+    width: 150px;
+    height: 150px;
+}
+#services .container .row:nth-child(2) .col-md-4 h4 {
+    margin: 20px 0;
+    font-weight: 600;
+}
+#services p {
+    max-width: 500px;
+    margin: auto;
+}
 .navbar {
     margin-bottom: 0;
 }
@@ -10,6 +124,62 @@ body {
 .container {
     width: 100%;
 }
+#projects .row:nth-child(1) {
+    text-align: center;
+}
+#projects .row:nth-child(1) h1 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 50px;
+}
+#projects .row:nth-child(2) {
+    margin: 60px 0 100px;
+}
+#projects .row:nth-child(2) .col-md-4{
+    text-align: center;
+    position: relative;
+    height: 100%;
+}
 #projects .col-md-4 img {
     width: 100%;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.09);
+    margin-top: 20px;
+}
+#projects .col-md-4 a {
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+#projects .col-md-4 div {
+    position: absolute;
+    top: 110px;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    color: #334964;
+    opacity: 0;
+}
+#contact {
+    background-color: #4C6D97;
+}
+#contact .container {
+    color: white;
+}
+#contact .container .row {
+    margin: 50px 0 10px;
+}
+#contact .line-break {
+    width: 70px;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 30px;
+}
+#contact .col-md-12 div a {
+    font-size: 50px;
+    color: white;
+    margin: 30px 10px;
+}
+.mobile-project {
+    display: none;
 }
