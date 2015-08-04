@@ -1,24 +1,4 @@
 @media only screen
-and (max-width : 2000px) {
-
-}
-@media only screen
-and (min-width : 1800px) {
-
-}
-@media only screen
-and (max-width : 1240px) {
-
-}
-@media only screen
-and (max-width : 1050px) {
-
-}
-@media only screen
-and (max-width : 1000px) {
-
-}
-@media only screen
 and (max-width : 990px) {
     .mobile-project {
         display: inline-block !important;
@@ -46,20 +26,23 @@ and (max-width : 767px) {
     #intro .col-md-6:nth-child(2) {
         padding: 60px 15px !important;
     }
-    .cbp-af-header {
-        background-color: #f6f6f6;
-    }
+    /*.cbp-af-header {*/
+        /*background-color: #f6f6f6;*/
+    /*}*/
     .cbp-af-header nav a {
-        color: #333333;
+        display: none !important;
     }
     .cbp-af-header.cbp-af-header-shrink h1,
+    .cbp-af-header.cbp-af-header-shrink nav,
     .cbp-af-header.cbp-af-header-shrink nav a {
         line-height: 90px;
+        display: inline-block !important;
+        color: black !important;
     }
-    .cbp-af-header nav a {
-        display: block !important;
-        float: left;
-    }
+    /*.cbp-af-header nav a {*/
+        /*display: block !important;*/
+        /*float: left;*/
+    /*}*/
     #intro .col-md-6:nth-child(2) {
         border-left: none !important;
     }
@@ -67,10 +50,13 @@ and (max-width : 767px) {
         display: none;
     }
     .cbp-af-header nav {
-        display: inline-block;
+        display: none;
     }
     .cbp-af-header .cbp-af-inner {
         text-align: center;
+    }
+    #intro .col-md-6:nth-child(1) {
+        border-right: none !important;
     }
     #intro .col-md-6:nth-child(2) {
         border-top: 2px solid white;
@@ -149,6 +135,12 @@ and (max-width: 500px) {
 and (max-width : 420px) {
     .cbp-af-header nav a {
         margin: 0 5px;
+    }
+    #intro .col-md-6:nth-child(1) {
+        height: 300px !important;
+    }
+    #intro .col-md-6:nth-child(2) {
+        padding: 49px 15px !important;
     }
 }
 @media only screen
