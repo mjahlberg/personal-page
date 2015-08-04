@@ -183,3 +183,7 @@ a:focus {
 .mobile-project {
     display: none;
 }
+#contact .contact-phone a {
+    color: white !important;
+    font-size: 15px !important;
+}
