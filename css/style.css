@@ -71,7 +71,7 @@ a:focus {
 #services .container,
 #projects .container {
     max-width: 1400px;
-    margin: auto;
+    margin: 0 auto 100px;
 }
 #about .row {
     margin: 180px 0 120px;
@@ -89,10 +89,6 @@ a:focus {
     background-color: rgba(128, 128, 128, 0.62);
     height: 1px;
     margin: 40px auto;
-}
-#services .container,
-#projects .container {
-    margin: 0 0 100px;
 }
 #services .container .row:nth-child(1) {
     text-align: center;
