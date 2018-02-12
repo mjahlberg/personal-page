@@ -67,6 +67,12 @@ a:focus {
     left: -50px;
     top: 300px;
 }
+#about .container,
+#services .container,
+#projects .container {
+    max-width: 1400px;
+    margin: auto;
+}
 #about .row {
     margin: 180px 0 120px;
 }
@@ -84,11 +90,9 @@ a:focus {
     height: 1px;
     margin: 40px auto;
 }
-#about .container,
 #services .container,
 #projects .container {
-    max-width: 1500px;
-    margin: auto;
+    margin: 0 0 100px;
 }
 #services .container .row:nth-child(1) {
     text-align: center;
@@ -142,18 +146,18 @@ a:focus {
     position: relative;
     height: 100%;
 }
-#projects .col-md-6 img {
+#projects .col-md-4 img {
     width: 100%;
     padding: 20px;
     border: 1px solid rgba(0, 0, 0, 0.09);
     margin-top: 20px;
 }
-#projects .col-md-6 a {
+#projects .col-md-4 a {
     width: 100%;
     top: 0;
     left: 0;
 }
-#projects .col-md-6 div {
+#projects .col-md-4 div {
     position: absolute;
     top: 110px;
     left: 0;
