@@ -13,7 +13,7 @@ and (max-width : 840px) {
 }
 @media only screen
 and (max-width : 800px) {
-    #services .container .row:nth-child(2) .col-md-4 {
+    #services .container .row:nth-child(2) .col-md-6 {
         margin: 40px 0;
         padding: 0 80px;
     }
@@ -79,10 +79,6 @@ and (max-width : 767px) {
     }
 }
 @media only screen
-and (max-width : 750px) {
-
-}
-@media only screen
 and (max-width : 600px) {
     #about .row {
         margin: 100px 0 100px !important;
@@ -128,7 +124,7 @@ and (max-width : 550px) {
 }
 @media only screen
 and (max-width: 500px) {
-    #services .container .row:nth-child(2) .col-md-4 {
+    #services .container .row:nth-child(2) .col-md-6 {
         padding: 0 15px !important;
 }
 @media only screen
@@ -143,17 +139,4 @@ and (max-width : 420px) {
         padding: 34px 15px !important
     }
 }
-@media only screen
-and (max-width : 360px) {
-
-}
-@media only screen
-and (max-width : 320px) {
-
-}
-
-/* iPhone 4 ----------- */
-    @media screen and (max-height:500px) {
-
-    }
 
