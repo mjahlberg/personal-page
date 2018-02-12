@@ -67,12 +67,6 @@ a:focus {
     left: -50px;
     top: 300px;
 }
-#about .container,
-#services .container,
-#projects .container {
-    max-width: 1400px;
-    margin: auto;
-}
 #about .row {
     margin: 180px 0 120px;
 }
@@ -90,9 +84,11 @@ a:focus {
     height: 1px;
     margin: 40px auto;
 }
+#about .container,
 #services .container,
 #projects .container {
-    margin: 0 0 100px;
+    max-width: 1500px;
+    margin: auto;
 }
 #services .container .row:nth-child(1) {
     text-align: center;
