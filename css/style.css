@@ -126,6 +126,9 @@ a:focus {
 .container {
     width: 100%;
 }
+#projects .row .col-lg-6 {
+    text-align: center;
+}
 #projects .row:nth-child(1) {
     text-align: center;
 }
@@ -147,6 +150,7 @@ a:focus {
     padding: 20px;
     border: 1px solid rgba(0, 0, 0, 0.09);
     margin-top: 20px;
+    max-width: 530px;
 }
 #projects .col-md-6 a {
     width: 100%;
