@@ -142,18 +142,18 @@ a:focus {
     position: relative;
     height: 100%;
 }
-#projects .col-md-4 img {
+#projects .col-md-6 img {
     width: 100%;
     padding: 20px;
     border: 1px solid rgba(0, 0, 0, 0.09);
     margin-top: 20px;
 }
-#projects .col-md-4 a {
+#projects .col-md-6 a {
     width: 100%;
     top: 0;
     left: 0;
 }
-#projects .col-md-4 div {
+#projects .col-md-6 div {
     position: absolute;
     top: 110px;
     left: 0;
