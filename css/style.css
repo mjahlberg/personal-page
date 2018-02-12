@@ -67,6 +67,12 @@ a:focus {
     left: -50px;
     top: 300px;
 }
+#about .container,
+#services .container,
+#projects .container {
+    max-width: 1400px;
+    margin: auto;
+}
 #about .row {
     margin: 180px 0 120px;
 }
