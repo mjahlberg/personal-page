@@ -138,11 +138,11 @@
 		line-height: 1;
 	}
 }
-#projects .col-md-4:hover div {
+#projects .col-md-6:hover div {
 	opacity: 1 !important;
 	transition: .5s;
 }
-#projects .col-md-4:hover img {
+#projects .col-md-6:hover img {
 	transition: .5s;
 	opacity: .2;
 }
